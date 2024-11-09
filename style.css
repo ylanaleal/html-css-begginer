@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.item {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; - divide igual na tela inteira*/
+  grid-template-columns: 300px 300px;
+  grid-gap: 20px;
+  justify-content: center;
+  /* place-content: center start*/
+}
