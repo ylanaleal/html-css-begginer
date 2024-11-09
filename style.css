@@ -23,3 +23,11 @@ h1 {
   justify-content: center;
   /* place-content: center start*/
 }
+
+.btn {
+  background-color: rgb(215, 122, 215);
+  color: rgb(32, 0, 32);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
