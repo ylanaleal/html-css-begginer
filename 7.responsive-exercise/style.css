@@ -153,7 +153,7 @@ footer {
   box-sizing: border-box;
 }
 
-/* abaixo de 900px */
+/* abaixo de 800px */
 @media (max-width: 800px) {
 
   /* Padrão para telas menores: escondemos os itens do menu */
@@ -223,5 +223,15 @@ footer {
 
   .subtitle {
     text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 }
