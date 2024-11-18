@@ -1,19 +1,16 @@
 body {
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Funnel Sans", Arial, sans-serif;
   margin: 0px;
   color: #141414;
   background: #fff;
   display: grid;
   gap: 0px;
-  padding: 0 60px;
   justify-items: space-around;
 }
 
 h1, h2, h3, p {
   margin: 0px;
 }
-
-
 
 h1 {
   font-family: "Funnel Display", sans-serif;
@@ -37,4 +34,29 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+.subtitulo {
+  font-family: 'funnel display', sans-serif;
+  font-size: 8rem;
+  line-height: 1;
+  word-break: break-all;
+  font-weight: 800;
+  max-width: 5ch;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 2.5rem;
+  }
 }
